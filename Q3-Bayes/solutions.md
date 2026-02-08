@@ -1,7 +1,7 @@
 # Q3 Bayes Rule :
 
  cMAP = argmax P(c) . P(d | c)
-              c∈C
+           c∈C
 
 
 1)Tasks:
