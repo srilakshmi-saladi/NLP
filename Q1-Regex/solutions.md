@@ -4,7 +4,7 @@ This file contains regex patterns for each sub-question, with simple explanation
 
 ---
 
-## 1. U.S. ZIP codes
+## 1. U.S. ZIP codes :
 **Regex:** \b\d{5}(?:[- ]\d{4})?\b
 
 **Explanation:**  
@@ -20,7 +20,7 @@ This file contains regex patterns for each sub-question, with simple explanation
 
 ---
 
-## 2. Words not starting with a capital letter
+## 2. Words not starting with a capital letter :
 **Regex:** \b(?![A-Z])[A-Za-z]+(?:['-][A-Za-z]+)*\b
 
 **Explanation:**  
@@ -36,7 +36,7 @@ This file contains regex patterns for each sub-question, with simple explanation
 
 ---
 
-## 3. Numbers (sign, commas, decimals, scientific notation)
+## 3. Numbers (sign, commas, decimals, scientific notation) :
 **Regex:** [+-]?\d{1,3}(?:,\d{3})*(?:.\d+)?(?:[eE][+-]?\d+)?
 
 **Explanation:**  
@@ -52,7 +52,7 @@ This file contains regex patterns for each sub-question, with simple explanation
 
 ---
 
-## 4. Variants of “email”
+## 4. Variants of “email” :
 **Regex (case-insensitive):** (?i)\be[ -‐]?mail\b
 
 **Explanation:**  
@@ -68,7 +68,7 @@ This file contains regex patterns for each sub-question, with simple explanation
 
 ---
 
-## 5. “gooo…” interjection with punctuation
+## 5. “gooo…” interjection with punctuation :
 **Regex:** \bgo+\b[!.,?]?
 
 **Explanation:**  
@@ -83,7 +83,7 @@ This file contains regex patterns for each sub-question, with simple explanation
 
 ---
 
-## 6. Lines ending with a question mark (with closing quotes/brackets)
+## 6. Lines ending with a question mark (with closing quotes/brackets) :
 **Regex:** ?\s*["'”’)]]\s$
 
 **Explanation:**  
